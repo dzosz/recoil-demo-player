@@ -784,23 +784,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "eframe_template"
-version = "0.1.0"
-dependencies = [
- "bincode",
- "chrono",
- "console_error_panic_hook",
- "eframe",
- "egui",
- "flate2",
- "image",
- "serde",
- "tracing-subscriber",
- "tracing-wasm",
- "wasm-bindgen-futures",
-]
-
-[[package]]
 name = "egui"
 version = "0.21.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1931,6 +1914,23 @@ dependencies = [
  "crossbeam-deque",
  "crossbeam-utils",
  "num_cpus",
+]
+
+[[package]]
+name = "recoil_demo_player"
+version = "0.1.0"
+dependencies = [
+ "bincode",
+ "chrono",
+ "console_error_panic_hook",
+ "eframe",
+ "egui",
+ "flate2",
+ "image",
+ "serde",
+ "tracing-subscriber",
+ "tracing-wasm",
+ "wasm-bindgen-futures",
 ]
 
 [[package]]
