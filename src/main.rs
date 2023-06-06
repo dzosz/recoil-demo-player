@@ -36,3 +36,16 @@ fn main() {
         .expect("failed to start eframe");
     });
 }
+
+/*
+#[wasm_bindgen]
+extern "C" {
+    type Buffer;
+}
+
+#[wasm_bindgen(module = "fs")]
+extern "C" {
+    #[wasm_bindgen(js_name = readFileSync, catch)]
+    fn read_file(path: &str) -> Result<Buffer, JsValue>;
+}
+*/
