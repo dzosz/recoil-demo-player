@@ -1345,7 +1345,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('eframe_template_bg.wasm', import.meta.url);
+        input = new URL('recoil_demo_player_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
